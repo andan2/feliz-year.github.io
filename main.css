@@ -1,0 +1,39 @@
+body {
+    background: black
+}
+
+#fireworksCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* Inicialmente oculto */
+    z-index: -1;
+}
+
+.home-button-container {
+    position: absolute;
+    top: 20px; /* Ajusta según tu layout */
+    right: 50px; /* Ajusta según tu layout */
+    z-index: 1000; /* Asegúrate de que no quede detrás de otros elementos */
+  }
+  
+  #home-button {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad */
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #home-button i {
+    color: white; /* Icono blanco */
+    font-size: 40px;
+  }
+  
+  #home-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más opaco al pasar el ratón */
+  }
+  
+
